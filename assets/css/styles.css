@@ -70,8 +70,8 @@ a, a:hover {
     padding: 1rem;
     min-height: 15rem;
 }
-.dsmovie-btn{
-    width: 80%;
+.dsmovie-btn, .dsmovie-btn:hover{
+    width: 60%;
     height: 50%;
     border-radius: 0.4rem;
     background-color: var(--primary-color);
@@ -83,5 +83,25 @@ a, a:hover {
 }
 .row{
     margin: 0;
+}
+.dsmovie-form-container{
+    padding: 2rem 0;
+    max-width: 23rem;
+}
+.dsmovie-form{
+    padding: 2rem;
+    text-align: left;
+}
+input{
+    width: 100%;
+}
+label{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #AAAAAA;
+}
+button{
+    margin: 1rem;
 }
 
