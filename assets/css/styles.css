@@ -3,6 +3,8 @@
     --bg-gray:#ddd;
     --primary-color:#4D41C0;
     --white:#fff;
+    --star-yellow:#FFBB3A;
+    --avaliacoes:#989898;
 }
 * {
     font-family: 'Open Sans', sans-serif;
@@ -58,8 +60,10 @@ a, a:hover {
 }
 .dsmovie-card img{
     width: 100%;
-    min-height: 459px;
     border-radius: 1rem 1rem 0 0;
+}
+.dsmovie-card>img{
+    min-height: 30rem;
 }
 .dsmovie-card-description{
     display: flex;
@@ -69,6 +73,25 @@ a, a:hover {
     justify-content: space-between;
     padding: 1rem;
     min-height: 15rem;
+}
+.dsmovie-description-card-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dsmovie-description-card-bottom h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+.dsmovie-description-card-bottom img {
+    width: 22px;
+    margin: 5px 0 5px 0;
+}
+.dsmovie-description-card-bottom p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--avaliacoes);
 }
 .dsmovie-btn, .dsmovie-btn:hover{
     width: 60%;
