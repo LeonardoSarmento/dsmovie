@@ -192,3 +192,6 @@ button{
 .footer p{
     margin: 0;
 }
+.footer img{
+    width: 2rem;
+}
