@@ -31,9 +31,14 @@ nav{
     justify-content: space-between;
     margin: 1rem;
 }
-nav h1{
+nav h1 a{
     font-size: 2.4rem;
     font-weight: 700;
+}
+nav h1 a:hover {
+    text-decoration: none;
+    color: unset;
+    font-size: 2.4rem;
 }
 a, a:hover {
     text-decoration: none;
@@ -190,8 +195,8 @@ button{
     font-weight: 500;
 }
 .footer p{
-    margin: 0;
+    margin: 0 0 1rem 0;
 }
 .footer img{
-    width: 2rem;
+    width: 1rem;
 }
